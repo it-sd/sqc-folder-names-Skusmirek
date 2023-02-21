@@ -12,5 +12,7 @@ const newFolderName = function (folders) {
 
 }
 
-console.log(newFolderName(['New Folder']))
-console.log(newFolderName(['New Folder', 'New Folder (2)', 'New Folder (3)']))
+//console.log(newFolderName(['New Folder']))
+//console.log(newFolderName(['New Folder', 'New Folder (2)', 'New Folder (3)']))
+
+module.exports = { newFolderName }
